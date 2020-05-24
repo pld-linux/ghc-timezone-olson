@@ -1,12 +1,12 @@
 %define		pkgname	timezone-olson
 Summary:	A Haskell binding to the timezone-olson graphics library
 Name:		ghc-%{pkgname}
-Version:	0.1.2
+Version:	0.2.0
 Release:	1
 License:	BSD
 Group:		Development/Languages
 Source0:	http://hackage.haskell.org/packages/archive/%{pkgname}/%{version}/%{pkgname}-%{version}.tar.gz
-# Source0-md5:	85c0f25db53571157aa463890a8af2e4
+# Source0-md5:	0ad826b14671e87c35ce0c638b4ff1be
 URL:		http://hackage.haskell.org/package/timezone-olson/
 BuildRequires:	ghc >= 6.12.3
 BuildRequires:	ghc-extensible-exceptions < 0.2
